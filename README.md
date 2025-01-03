@@ -2,6 +2,32 @@
 
 A Message Control Protocol (MCP) server implementation for interacting with [NeoDB](https://neodb.social/), a social book cataloging service. This server provides tools to fetch user information, search books, and retrieve detailed book information through NeoDB's API.
 
+## Setup
+
+### Install UV
+First, install UV package installer:
+
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+### Create Virtual Environment
+Create and activate a Python virtual environment using UV:
+
+```bash
+uv venv
+source .venv/bin/activate  # On Unix/macOS
+# or
+.venv\Scripts\activate     # On Windows
+```
+
+### Install Dependencies
+Install project dependencies using UV:
+
+```bash
+uv pip install .
+```
+
 ## Available Tools
 
 The server provides the following tools:
@@ -24,7 +50,11 @@ The server provides the following tools:
 
 ### Get Access Token
 
-[Official guide](https://neodb.net/api/)
+There are two ways to get your access token:
+
+1. Using the official guide: Follow the [official documentation](https://neodb.net/api/) to obtain your access token.
+
+2. Using automated script: You can use the [neodb-get-access-token](https://github.com/xytangme/neodb-get-access-token) script which provides a simplified way to get your access token.
 
 ### Update Config `claude_desktop_config.json`
 
@@ -52,4 +82,4 @@ Where:
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
