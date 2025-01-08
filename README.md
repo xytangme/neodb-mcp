@@ -2,6 +2,8 @@
 
 A Message Control Protocol (MCP) server implementation for interacting with [NeoDB](https://neodb.social/), a social book cataloging service. This server provides tools to fetch user information, search books, and retrieve detailed book information through NeoDB's API.
 
+<a href="https://glama.ai/mcp/servers/1any3eeaza"><img width="380" height="200" src="https://glama.ai/mcp/servers/1any3eeaza/badge" alt="NeoDB Server MCP server" /></a>
+
 ## Setup
 
 ### Install UV
