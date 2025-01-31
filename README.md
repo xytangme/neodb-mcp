@@ -1,10 +1,19 @@
 # NeoDB MCP Server
+[![smithery badge](https://smithery.ai/badge/@xytangme/neodb-mcp)](https://smithery.ai/server/@xytangme/neodb-mcp)
 
 A Message Control Protocol (MCP) server implementation for interacting with [NeoDB](https://neodb.social/), a social book cataloging service. This server provides tools to fetch user information, search books, and retrieve detailed book information through NeoDB's API.
 
 <a href="https://glama.ai/mcp/servers/1any3eeaza"><img width="380" height="200" src="https://glama.ai/mcp/servers/1any3eeaza/badge" alt="NeoDB Server MCP server" /></a>
 
 ## Setup
+
+### Installing via Smithery
+
+To install NeoDB for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@xytangme/neodb-mcp):
+
+```bash
+npx -y @smithery/cli install @xytangme/neodb-mcp --client claude
+```
 
 ### Install UV
 First, install UV package installer:
